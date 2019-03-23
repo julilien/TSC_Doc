@@ -22,7 +22,7 @@ The `ClassMapper` object can be used to map `String` classes to `Integer` values
 
 ## Train and evaluate a classifier
 
-To train a classifier, you have to create an object of the desired subclass of `jaicore.ml.tsc.classifier.ASimplifiedTSClassifier`. This class provides the methods `train` and `predict`, which are implemented by the dervied subclasses. The training itself then looks as follows (here: using `jaicore.ml.tsc.classifier.shapelets.LearnShapelets` as an exemplary usage scenario):
+To train a classifier, you have to create an object of the desired subclass of `jaicore.ml.tsc.classifier.ASimplifiedTSClassifier`. This class provides the methods `train` and `predict`, which are implemented by the derived subclasses. The code necessary for the training looks as follows (here: using `jaicore.ml.tsc.classifier.shapelets.LearnShapelets` as an exemplary usage scenario):
 
 ```java
 LearnShapeletsClassifier ls = new LearnShapeletsClassifier(K, learningRate, regularization, scaleR,
