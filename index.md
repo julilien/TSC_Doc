@@ -1,3 +1,9 @@
+# Introduction
+
+The JAICore TSC framework provides fast Java implementations of popular time series classification models. The implemented classifiers were compared to several Java reference implementations to ensure appropriate performance.
+
+The frameworks has been developed within a subproject of the [On-The-Fly Machine Learning project group](https://cs.uni-paderborn.de/de/is/teaching/courses/ss-2018/project-group/) at Paderborn University.
+
 # How to use
 
 ## Import a dataset
